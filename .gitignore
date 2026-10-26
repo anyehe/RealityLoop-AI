@@ -1,0 +1,33 @@
+﻿# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies and build output
+node_modules/
+dist/
+
+# Private learner context
+/devpost/learner-profile.md
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Local editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+# Local AI workflow and assistant configuration
+.agents/
+.claude/
+.qodo/
+agent/
+skills-lock.json
+# Local backup files
+*.backup
